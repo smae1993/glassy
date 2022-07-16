@@ -6,8 +6,6 @@ class GlassyButton extends StatelessWidget {
   final VoidCallback? onPressed;
   final Widget child;
 
-  final bool s = false;
-
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(onPressed: onPressed, child: child);

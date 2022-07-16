@@ -1,7 +1,13 @@
 library glassy;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:glassy/glassy_config.dart';
+
+GlassyConfig config = GlassyConfig();
+
+/// Main Glassy Class.
+class Glassy {
+  /// Set default configuration
+  void setConfig(GlassyConfig conf) {
+    config = conf;
+  }
 }
