@@ -12,7 +12,7 @@ A Flutter package for all platforms which provides Glass Effects
 
 To use this package :
 
-* add the dependency to your [pubspec.yaml](https://github.com/parth58/Social-SignIn-Buttons/blob/master/pubspec.yaml) file.
+* add the dependency to your [pubspec.yaml](https://github.com/smae1993/glassy/blob/main/pubspec.yaml) file.
 
 ```yaml
   dependencies:
