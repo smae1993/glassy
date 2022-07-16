@@ -18,7 +18,7 @@ To use this package :
   dependencies:
     flutter:
       sdk: flutter
-    social_signin_buttons:
+    glassy:
 ```
 
 ### How to use
@@ -56,19 +56,14 @@ class Test extends StatelessWidget {
 
 ```
 
-### List Of Buttons
-* Buttons.Google
-* Buttons.Facebook
-* Buttons.Microsoft
-* Buttons.Apple
-* Buttons.Github
-* Buttons.LinkedIn
-* Buttons.Twitter
-* Buttons.Email
+### List Of Widgets
+* GlassyCard
+* GlassyButton
+* GlassyDialog
 
 
 # License
-Copyright (c) 2020 Parth Patel
+Copyright (c) 2020 Sayed Mohammad Amin Emrani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
