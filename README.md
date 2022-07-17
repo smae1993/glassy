@@ -8,7 +8,7 @@ A Flutter package for all platforms which provides Glass Effects
 
 ## Usage
 
-[Example](https://github.com/parth58/Social-SignIn-Buttons/blob/master/example/lib/main.dart)
+[Example](https://github.com/smae1993/glassy/blob/main/example/lib/main.dart)
 
 To use this package :
 
