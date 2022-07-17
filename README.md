@@ -18,7 +18,7 @@ To use this package :
   dependencies:
     flutter:
       sdk: flutter
-    glassy: ^0.0.3
+    glassy: latest version
 ```
 
 ### How to use
