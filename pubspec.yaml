@@ -1,6 +1,6 @@
 name: glassy
-description: A Glass Effect Flutter Library.
-version: 0.0.3
+description: This Library Provides Glass Effect for Some Widgets like Card, Button, Dialog that make them Glassy.
+version: 0.0.4
 homepage: "https://github.com/smae1993/glassy"
 
 environment:

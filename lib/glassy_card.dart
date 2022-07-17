@@ -4,9 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:glassy/glassy.dart';
 import 'package:glassy/glassy_config.dart';
 
+/// a card that has glass effects
 class GlassyCard extends StatelessWidget {
   const GlassyCard({required this.child, this.config, super.key});
+
+  /// a widget that placed as child of card
   final Widget child;
+
+  /// optional configuration of glass effect
   final GlassyConfig? config;
 
   @override

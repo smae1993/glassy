@@ -5,8 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:glassy/glassy.dart';
 import 'package:glassy/glassy_config.dart';
 
-/// Glassy Dialog
+/// Glassy Dialog provides a dialog with Glass Effects
 class GlassyDialog extends StatelessWidget {
+  /// required params:
+  ///   - child as a widget
   const GlassyDialog(
       {Key? key,
       required this.child,
@@ -20,18 +22,38 @@ class GlassyDialog extends StatelessWidget {
       this.fullScreen = false,
       this.direction = TextDirection.ltr})
       : super(key: key);
+
+  /// size that determine dialog size
   final Size? size;
+
+  /// dialog title that placed on center top of dialog
   final String? title;
+
+  /// action buttons that placed on top left of dialog
   final List<Widget>? leftBar;
+
+  /// action buttons that placed on top right of dialog
   final List<Widget>? rightBar;
+
+  /// a boolean determine that dialog has close button or not
   final bool? closeButton;
+
+  /// a widghet that placed in center of dialog as child
   final Widget child;
+
+  /// a boolean determine that dialog is fullscreen or not
   final bool fullScreen;
+
+  /// determine direction of dialog
   final TextDirection direction;
+
+  /// optional configuration of glass effects
   final GlassyConfig? config;
 
+  /// on dialog close callback
   final Function()? onClose;
 
+  /// function that determines final dialog size
   Size dialogSize(BuildContext context) {
     if (size != null) {
       return size!;
