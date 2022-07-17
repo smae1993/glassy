@@ -43,8 +43,8 @@ class GlassyButton extends StatelessWidget {
           child: ElevatedButton(
               style: ElevatedButton.styleFrom(
                 padding: padding,
-                backgroundColor: (config ?? glassyConfig).backgroundColor,
-                foregroundColor: (config ?? glassyConfig).foregroundColor,
+                primary: (config ?? glassyConfig).backgroundColor,
+                onPrimary: (config ?? glassyConfig).foregroundColor,
                 shape: RoundedRectangleBorder(
                   side: BorderSide(
                       width: 1, color: (config ?? glassyConfig).borderColor!),
