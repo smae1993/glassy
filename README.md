@@ -34,6 +34,22 @@ void main() {
   runApp(const MyApp());
 }
 
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Glassy Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const DemoPage(),
+    );
+  }
+}
+
 class DemoPage extends StatelessWidget {
   const DemoPage({super.key});
 
