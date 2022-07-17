@@ -4,7 +4,7 @@ A Flutter package for all platforms which provides Glass Effects
 
 ## Screenshots
 
-<img src="https://github.com/smae1993/glassy/blob/main/screenShots/screen_shot_1.png" height="400em" width="225em" />
+<img src="https://github.com/smae1993/glassy/blob/main/screenShots/screen_shot_2.png" height="400em" width="225em" />
 
 ## Usage
 
